@@ -54,7 +54,8 @@ class Test1 {
     return this;
   }
 
-  lerp() {
+  lerp(a, b, t) {
+    console.log(a, b ,t);
     return this;
   }
 }
@@ -68,7 +69,8 @@ class Test2 {
     return this;
   }
 
-  lerp() {
+  lerp(a, b, t) {
+    console.log(a, b ,t);
     return this;
   }
 }
